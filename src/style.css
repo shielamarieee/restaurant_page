@@ -255,3 +255,72 @@ input, textarea {
   flex-direction: column;
   line-height: 2rem;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+  .container {
+    background-size: fill;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+
+
+  /* Main */
+  .container {padding: 0 30px;}
+
+  .main {min-height: 100vh; margin: 30px 0;}
+
+  .tagline {
+    margin-top: 0;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .tagline h1 {font-size: 4.5rem;}
+  
+  .tagline p {font-size: 1.5rem;}
+
+  /* Menu */
+  .menu {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .dishes {
+    width: 50vw;
+    display: flex;
+    text-align: center;
+  }
+  
+  .dish-name {margin: 20px 0;}
+  
+  .menu-center {
+    display: flex;
+    order: 1;
+  }
+  
+  .menu-head {font-size: 3rem;}
+
+  /* Contact */
+  .contact {
+    display: block;
+    height: 100%;
+  }
+  
+  .left-side, .right-side {margin-top: 0;}
+  
+  .large {font-size: 4rem; text-align: center;}
+  
+  .right-side {
+    display: flex;
+    justify-content: space-around;
+  }
+}
