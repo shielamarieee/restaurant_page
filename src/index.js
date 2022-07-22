@@ -51,3 +51,16 @@ contactTab.addEventListener('click', (e) => {
     setActiveButton(contactTab);
   console.log('4');
 });
+
+//current active button 
+function setActiveButton(button) {
+  const navBtns = document.querySelectorAll('.btn');
+
+  navBtns.forEach((button) => {
+    if (button !== this) {
+      button.classList.remove("active");
+    }
+  });
+
+  button.classList.add("active");
+}
