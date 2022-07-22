@@ -1,3 +1,4 @@
+import noodlesImg from './images/noodles.png';
 export default function menuPage() {
   //-----Main-----
   const main = document.querySelector('.main');
