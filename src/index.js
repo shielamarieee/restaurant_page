@@ -1,1 +1,3 @@
-console.log('Hello I\'m from ../src/index.js');
+import initialPage from "./initialPage";
+
+initialPage();
